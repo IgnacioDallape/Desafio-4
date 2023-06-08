@@ -1,6 +1,6 @@
 [
   {
-    "title": "Papas",
+    "title": "papa!",
     "description": "Es una papa",
     "price": 300,
     "thumbnail": "Sin imagen",
@@ -108,5 +108,27 @@
     "status": true,
     "category": "legumbre",
     "id": "67ef525d-a33e-47e5-8493-a50436dd573e"
+  },
+  {
+    "title": "aaaaa",
+    "description": "es un lentejas",
+    "price": 1700,
+    "thumbnail": "",
+    "code": "ssssss",
+    "stock": 35,
+    "status": true,
+    "category": "ssssss",
+    "id": "f8ba523f-054b-4266-9ce3-fea491f071d4"
+  },
+  {
+    "title": "fffff",
+    "description": "es un lentejas",
+    "price": 1700,
+    "thumbnail": "",
+    "code": "fffff",
+    "stock": 35,
+    "status": true,
+    "category": "ssssss",
+    "id": "cf5c419d-8d3e-450b-b203-41b320539348"
   }
 ]

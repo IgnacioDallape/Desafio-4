@@ -1,0 +1,101 @@
+[
+  {
+    "title": "Papas",
+    "description": "Es una papa",
+    "price": 300,
+    "thumbnail": "Sin imagen",
+    "code": "papa123",
+    "stock": 25,
+    "status": true,
+    "category": "verdura",
+    "id": "1"
+  },
+  {
+    "title": "zanahoria",
+    "description": "Es una zanahoria",
+    "price": 400,
+    "thumbnail": "Sin imagen",
+    "code": "zanahoria",
+    "stock": 30,
+    "status": true,
+    "category": "verdura",
+    "id": "2"
+  },
+  {
+    "title": "palta",
+    "description": "Es una papa",
+    "price": 300,
+    "thumbnail": "Sin imagen",
+    "code": "palta",
+    "stock": 25,
+    "status": true,
+    "category": "verdura",
+    "id": "3"
+  },
+  {
+    "title": "camote",
+    "description": "es un camote",
+    "price": 200,
+    "thumbnail": "",
+    "code": "camote123",
+    "stock": 5,
+    "status": true,
+    "category": "verdura",
+    "id": "2184aa48-91d5-4f63-9d7c-b76e7cbf5231"
+  },
+  {
+    "title": "berenjena",
+    "description": "es un berenjena",
+    "price": 100,
+    "thumbnail": "",
+    "code": "berenjena123",
+    "stock": 15,
+    "status": true,
+    "category": "verdura",
+    "id": "a8a130cb-b770-45c4-90d2-a3a696522091"
+  },
+  {
+    "title": "manzana",
+    "description": "es un manzana",
+    "price": 100,
+    "thumbnail": "",
+    "code": "manzana123",
+    "stock": 15,
+    "status": true,
+    "category": "fruta",
+    "id": "77a1efa5-c26b-40eb-8292-bf9c2d3874bc"
+  },
+  {
+    "title": "pera",
+    "description": "es un pera",
+    "price": 100,
+    "thumbnail": "",
+    "code": "pera123",
+    "stock": 35,
+    "status": true,
+    "category": "fruta",
+    "id": "65facbe0-a5e3-448b-839b-a77dd61aac81"
+  },
+  {
+    "title": "coco",
+    "description": "es un coco",
+    "price": 700,
+    "thumbnail": "",
+    "code": "ccc",
+    "stock": 35,
+    "status": true,
+    "category": "fruta",
+    "id": "330465e7-8a4b-49a8-ac51-6138cae9d480"
+  },
+  {
+    "title": "bife",
+    "description": "es un bife",
+    "price": 1700,
+    "thumbnail": "",
+    "code": "bife",
+    "stock": 35,
+    "status": true,
+    "category": "carne",
+    "id": "af5094a2-a63a-4348-ba6b-6dd4f67190cf"
+  }
+]

@@ -8,8 +8,12 @@ router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({ extended: true }));
 
 router.get('/', async (req, res) => {
+    try{
 
-    res.render('realtimeproducts', {  })
+        res.render('realtimeproducts', {  })
+    } catch (err){
+        console.log(err)
+    }
 })
 
 module.exports = router;

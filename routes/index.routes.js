@@ -10,8 +10,11 @@ router.use(bodyParser.urlencoded({ extended: true }));
 
 router.get('/', async (req, res)  => {
 
-    res.render('index', {})
-
+    try{
+        res.render('index', {})
+    } catch (err){
+        console.log(err)
+    }
 })
 
 module.exports = router

@@ -97,5 +97,16 @@
     "status": true,
     "category": "carne",
     "id": "af5094a2-a63a-4348-ba6b-6dd4f67190cf"
+  },
+  {
+    "title": "lentejas",
+    "description": "es un lentejas",
+    "price": 1700,
+    "thumbnail": "",
+    "code": "lentejas",
+    "stock": 35,
+    "status": true,
+    "category": "legumbre",
+    "id": "67ef525d-a33e-47e5-8493-a50436dd573e"
   }
 ]

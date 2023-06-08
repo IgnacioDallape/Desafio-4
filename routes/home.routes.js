@@ -4,13 +4,15 @@ const { Router } = express
 const router = new Router()
 
 router.get('/', async (req, res) => {
-    // Obtener los productos del ProductManager
-    const product = new ProductManager()
-    let products = await product.getProducts()
-    console.log(products)
-  
-    // Renderizar la plantilla Handlebars con los datos
-    res.render('home', { products });
+  try{
+      const product = new ProductManager()
+      let products = await product.getProducts()
+      console.log(products)
+    
+      res.render('home', { products });
+  } catch (err){
+      console.log(err)
+  }
   });
   
 module.exports = router

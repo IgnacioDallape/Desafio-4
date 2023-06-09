@@ -1,6 +1,6 @@
 [
   {
-    "title": "papa!",
+    "title": "papa",
     "description": "Es una papa",
     "price": 300,
     "thumbnail": "Sin imagen",
@@ -70,65 +70,54 @@
     "description": "es un pera",
     "price": 100,
     "thumbnail": "",
-    "code": "pera123",
-    "stock": 35,
+    "code": "pera",
+    "stock": 25,
     "status": true,
     "category": "fruta",
-    "id": "65facbe0-a5e3-448b-839b-a77dd61aac81"
+    "id": "235d2a73-3f5c-41b8-a98e-7f1b13cf214b"
   },
   {
-    "title": "coco",
-    "description": "es un coco",
-    "price": 700,
+    "title": "aaaaaaaa",
+    "description": "es un aa",
+    "price": 100,
     "thumbnail": "",
-    "code": "ccc",
-    "stock": 35,
+    "code": "aaaaaaaaaaaaaaaa",
+    "stock": 25,
     "status": true,
-    "category": "fruta",
-    "id": "330465e7-8a4b-49a8-ac51-6138cae9d480"
+    "category": "asdasd",
+    "id": "796d4601-d5ed-4e25-ad74-50f1d9e47d29"
   },
   {
-    "title": "bife",
-    "description": "es un bife",
-    "price": 1700,
+    "title": "asdasd",
+    "description": "es un aa",
+    "price": 100,
     "thumbnail": "",
-    "code": "bife",
-    "stock": 35,
+    "code": "asdasd",
+    "stock": 25,
+    "status": true,
+    "category": "asdasd",
+    "id": "66e70f18-4505-4622-a1cd-c5a752a94f2f"
+  },
+  {
+    "title": "asado",
+    "description": "es un aa",
+    "price": 100,
+    "thumbnail": "",
+    "code": "asado",
+    "stock": 25,
     "status": true,
     "category": "carne",
-    "id": "af5094a2-a63a-4348-ba6b-6dd4f67190cf"
+    "id": "8d33a558-e029-41cd-8ce5-5a0362fb9a84"
   },
   {
-    "title": "lentejas",
-    "description": "es un lentejas",
-    "price": 1700,
+    "title": "carne",
+    "description": "es un aa",
+    "price": 100,
     "thumbnail": "",
-    "code": "lentejas",
-    "stock": 35,
+    "code": "carne",
+    "stock": 25,
     "status": true,
-    "category": "legumbre",
-    "id": "67ef525d-a33e-47e5-8493-a50436dd573e"
-  },
-  {
-    "title": "aaaaa",
-    "description": "es un lentejas",
-    "price": 1700,
-    "thumbnail": "",
-    "code": "ssssss",
-    "stock": 35,
-    "status": true,
-    "category": "ssssss",
-    "id": "f8ba523f-054b-4266-9ce3-fea491f071d4"
-  },
-  {
-    "title": "fffff",
-    "description": "es un lentejas",
-    "price": 1700,
-    "thumbnail": "",
-    "code": "fffff",
-    "stock": 35,
-    "status": true,
-    "category": "ssssss",
-    "id": "cf5c419d-8d3e-450b-b203-41b320539348"
+    "category": "carne",
+    "id": "b363ebeb-dad0-4bbc-a25c-3d25679eb864"
   }
 ]

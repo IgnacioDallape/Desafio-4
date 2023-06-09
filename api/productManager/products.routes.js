@@ -46,6 +46,7 @@ routerProducts.post('/', async (req, res) => {
             return
         }
         res.send('Producto agregado correctamente');
+        next()
     } catch (err) {
         console.log(`Error: ${err}`)
         res.status(500).send(err)
@@ -89,6 +90,7 @@ routerProducts.delete('/:pid', async (req, res) => {
             return
         }
         res.send('producto eliminado')
+        next()
     } catch (err) {
         console.log(err)
         res.status(500).send(err)

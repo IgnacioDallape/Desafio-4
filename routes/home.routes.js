@@ -7,8 +7,6 @@ router.get('/', async (req, res) => {
   try{
       const product = new ProductManager()
       let products = await product.getProducts()
-      console.log(products)
-    
       res.render('home', { products });
   } catch (err){
       console.log(err)

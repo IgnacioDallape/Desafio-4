@@ -1,16 +1,5 @@
 [
   {
-    "title": "papa",
-    "description": "Es una papa",
-    "price": 300,
-    "thumbnail": "Sin imagen",
-    "code": "papa123",
-    "stock": 25,
-    "status": true,
-    "category": "verdura",
-    "id": "1"
-  },
-  {
     "title": "zanahoria",
     "description": "Es una zanahoria",
     "price": 400,
@@ -67,57 +56,35 @@
   },
   {
     "title": "pera",
-    "description": "es un pera",
+    "description": "es un manzana",
     "price": 100,
     "thumbnail": "",
     "code": "pera",
-    "stock": 25,
+    "stock": 15,
     "status": true,
     "category": "fruta",
-    "id": "235d2a73-3f5c-41b8-a98e-7f1b13cf214b"
+    "id": "d928d209-eb87-4311-9f5d-0a1545b414f4"
   },
   {
-    "title": "aaaaaaaa",
-    "description": "es un aa",
+    "title": "brocoli",
+    "description": "es un manzana",
     "price": 100,
     "thumbnail": "",
-    "code": "aaaaaaaaaaaaaaaa",
-    "stock": 25,
+    "code": "brocoli",
+    "stock": 15,
     "status": true,
-    "category": "asdasd",
-    "id": "796d4601-d5ed-4e25-ad74-50f1d9e47d29"
+    "category": "fruta",
+    "id": "736c5128-2eeb-428e-9f90-ae036a2e8c3c"
   },
   {
-    "title": "asdasd",
-    "description": "es un aa",
-    "price": 100,
-    "thumbnail": "",
-    "code": "asdasd",
+    "title": "papa",
+    "description": "Es una papa",
+    "price": 300,
+    "thumbnail": "Sin imagen",
+    "code": "papa123",
     "stock": 25,
     "status": true,
-    "category": "asdasd",
-    "id": "66e70f18-4505-4622-a1cd-c5a752a94f2f"
-  },
-  {
-    "title": "asado",
-    "description": "es un aa",
-    "price": 100,
-    "thumbnail": "",
-    "code": "asado",
-    "stock": 25,
-    "status": true,
-    "category": "carne",
-    "id": "8d33a558-e029-41cd-8ce5-5a0362fb9a84"
-  },
-  {
-    "title": "carne",
-    "description": "es un aa",
-    "price": 100,
-    "thumbnail": "",
-    "code": "carne",
-    "stock": 25,
-    "status": true,
-    "category": "carne",
-    "id": "b363ebeb-dad0-4bbc-a25c-3d25679eb864"
+    "category": "verdura",
+    "id": "7eac3d92-3190-485c-877b-54adfa8a8295"
   }
 ]

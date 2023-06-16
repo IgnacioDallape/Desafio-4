@@ -60,8 +60,11 @@ server.listen(8080, () => {
 
 io.on('connection', async (socket) => {
   console.log('Nuevo cliente conectado');
-
+  let product = new ProductManager();
+  product = await product.getProducts();
+  io.sockets.emit('products', product);
 });
+
 
 
 

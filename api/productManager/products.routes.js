@@ -19,7 +19,7 @@ routerProducts.get('/', async (req, res) => {
         console.log(`Error: ${err}`)
         res.status(500).send('error')
     }
-    })
+})
 
 routerProducts.get('/:pid', async (req, res) => {
     try {
@@ -37,7 +37,7 @@ routerProducts.get('/:pid', async (req, res) => {
 
 //agrego productos a mi base de datos, para lugo usarlas en el carrito
 
-routerProducts.post('/', async (req, res) => {
+routerProducts.post('/', async (req, res, next) => {
     const { title, description, price, thumbnail, code, stock, status, category } = req.body;
     try {
         let productAdded = await newProduct.addProducts(title, description, price, thumbnail, code, stock, status, category)
@@ -48,7 +48,7 @@ routerProducts.post('/', async (req, res) => {
         res.send('Producto agregado correctamente');
         next()
     } catch (err) {
-        console.log(`Error: ${err}`)
+        console.log(`Error en post products ${err}`)
         res.status(500).send(err)
     }
 
@@ -57,9 +57,8 @@ routerProducts.post('/', async (req, res) => {
 
 //modifico el producto que quiera
 
-routerProducts.put('/:pid', async (req, res) => {
+routerProducts.put('/:pid', async (req, res,next) => {
     try{
-
         let prodId = req.params.pid
         let prodBody = req.body
         let prom = await newProduct.updateProducts(prodBody, prodId)        
@@ -80,7 +79,7 @@ routerProducts.put('/:pid', async (req, res) => {
 )
 //elimino algun producto
 
-routerProducts.delete('/:pid', async (req, res) => {
+routerProducts.delete('/:pid', async (req, res, next) => {
     try{
 
         let prodId = req.params.pid

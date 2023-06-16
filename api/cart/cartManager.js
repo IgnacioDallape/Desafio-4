@@ -99,7 +99,6 @@ class CartManager {
             this.cart = JSON.parse(this.cart);
             this.cart = Object.values(this.cart);
 
-            // Filtrar los productos y eliminar el que coincide con el ID dado
             this.cart = this.cart.filter((e) => e.id !== id);
 
             await fs.writeFile('./api/cart/cart.json', JSON.stringify(this.cart, null, 2), 'utf-8');

@@ -103,6 +103,7 @@ class ProductManager {
                 console.log(`Does not exist a product with the same id ${id}`)
                 return false
             }
+            
             let findingCode = this.products.find( product => product.code === productUpdated.code)
             
             if(findingCode){

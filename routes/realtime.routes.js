@@ -10,7 +10,6 @@ router.use(bodyParser.urlencoded({ extended: true }));
 router.get('/', async (req, res) => {
     try {
         res.render('realtimeproducts', {})
-        next()
     } catch (err) {
         console.log(err)
     }
